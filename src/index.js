@@ -6,6 +6,7 @@ import registerServiceWorker from './registerServiceWorker';
 
 import Header from './Header';
 import HomePage from './HomePage';
+import WTHSC from './WTHSC';
 import First from './Examples/First';
 import Second from './Examples/Second';
 import Third from './Examples/Third';
@@ -27,6 +28,7 @@ const PrimaryLayout = () => (
         <Route path="/second" component={Second} />
         <Route path="/third" component={Third} />
         <Route path="/fourth" component={Fourth} />
+        <Route path="/whatthehellissc" component={WTHSC} />
       </Switch>
     </PageView>
   </PrimaryLayoutView>
